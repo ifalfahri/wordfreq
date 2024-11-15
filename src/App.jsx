@@ -36,7 +36,7 @@ export default function WordFrequencyCounter() {
   return (
     <div className="min-h-screen bg-white text-black font-sans relative">
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold mb-8 text-center">Word Frequency Counter</h1>
+        <h1 className="text-4xl font-bold mb-8 text-center focus:animate-pulse">Word Frequency Counter</h1>
         <div className="max-w-2xl mx-auto">
           <textarea
             value={text}
